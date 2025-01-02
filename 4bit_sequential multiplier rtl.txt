@@ -3,6 +3,6 @@ input [3:0]a,b;
 output reg[7:0]y;
 always@(a or b)
 begin
- y=a&b;
+ y=a*b;
 end
 endmodule
